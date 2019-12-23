@@ -2,7 +2,7 @@
 
 Superglobals can potentially return primitive types or arrays, so every time we want to get, for example, a string from a query string variable, we also have to handle the case where an array is passed in. This is cumbersome, so this package provides request classes to make sure we get back exactly what we want.
 
-## Laravel
+### Laravel
 
 There is a Laravel-specific class that extends the `Illuminate\Http\Request` object. Just import `DerekHamilton\TypedRequest\LaravelRequest` instead.
 
@@ -38,7 +38,7 @@ class MyController extends Controller
 }
 ```
 
-## Superglobals
+### Superglobals
 
 To depend on the built-in PHP superglobals, import `DerekHamilton\TypedRequest\GlobalRequest`.
 
