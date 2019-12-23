@@ -1,0 +1,14 @@
+{
+    "name": "derekhamilton/typed-request",
+    "description": "Extended Laravel Request with methods for explicit return types.",
+    "keywords": ["laravel", "request", "input", "return", "types", "cast"],
+    "autoload": {
+        "psr-4": {
+            "DerekHamilton\\TypedRequest\\": "src",
+            "Tests\\": "tests"
+        }
+    },
+    "require": {
+        "php": "7.1"
+    }
+}
